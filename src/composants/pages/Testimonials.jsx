@@ -21,15 +21,15 @@ export const Testimonials = () => {
                {
                  testimonials.map((val)=>(
                     <div className="box" key={val.id}>
-                        <i>
+                        <i data-aos='zoom-out-up'>
                             <FormatQuote />
                         </i>
-                        <p>{val.text}</p>
-                        <div className="image">
+                        <p data-aos='zoom-out-down'>{val.text}</p>
+                        <div className="image" data-aos='zoom-out-right'>
                             <img src={val.image} alt="" />
                         </div>
-                        <h3>{val.name}</h3>
-                        <label >{val.post}</label>
+                        <h3  data-aos='zoom-out-left'>{val.name}</h3>
+                        <label data-aos='zoom-out'>{val.post}</label>
                     </div>
                 ))
                }

@@ -15,18 +15,18 @@ export const Contact = () => {
                     <div className="right">
                         <form >
                             <div className="flex space">
-                                <input type="text" placeholder='Name' />
-                                <input type="text" placeholder='Email' />
+                                <input type="text" placeholder='Name' data-aos='flip-left' />
+                                <input type="text" placeholder='Email' data-aos='flip-right'  />
                             </div>
-                            <input type="text" placeholder='Subject' />
-                            <textarea name="" cols="30" rows="10" id=""></textarea>
-                            <button>Submit</button>
+                            <input type="text" placeholder='Subject' data-aos='flip-up'/>
+                            <textarea name="" cols="30" rows="10" id="" data-aos='flip-down'></textarea>
+                            <button data-aos='zoom-in-up'>Submit</button>
                         </form>
                     </div>
                     <div className="left">
                         {
                             contact.map((items) =>(
-                                <div className="box" key={items.id}>
+                                <div className="box" key={items.id} data-aos='zoom-in'>
                                     <i>{items.icon}</i>
                                     <p>{items.text1}</p>
                                     <p>{items.text2}</p>

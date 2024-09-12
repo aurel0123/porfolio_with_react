@@ -6,28 +6,28 @@ export const Counter = () => {
     <>
         <div className="hero counter">
             <div className="content grid3 grid4">
-                <div className="box">
+                <div className="box" data-aos='zoom-in'>
                     <i><CloudOutlined/></i>
                     <h1 className='heading'>
                         <CountUp enableScrollSpy duration={4} end={89}/>
                     </h1>
                     <h3>HAPPY CLIENTS</h3>
                 </div>
-                <div className="box">
+                <div className="box" data-aos='zoom-in'>
                     <i><FavoriteBorder/></i>
                     <h1 className='heading'>
                         <CountUp enableScrollSpy duration={4} end={231} />
                     </h1>
                     <h3>PROJECTS COMPLEATED</h3>
                 </div>
-                <div className="box">
+                <div className="box" data-aos='zoom-in'>
                     <i><Public/></i>
                     <h1 className='heading'>
                         <CountUp enableScrollSpy duration={4} end={108}/>
                     </h1>
                     <h3>FILES DOWNLOADED</h3>
                 </div>
-                <div className="box">
+                <div className="box" data-aos='zoom-in'>
                     <i><PersonOutline/></i>
                     <h1 className='heading'>
                         <CountUp enableScrollSpy duration={4} end={1446}/>

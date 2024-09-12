@@ -10,7 +10,7 @@ export default function Header() {
     <>
    <header className='container flex-sb'>
         <div className="logo">
-          <img src={logo} alt="" />
+          <img src={logo} alt="" data-aos='zoom-in-right'/>
         </div>
         <div className="navbar flex-sb">
           <ul className={responsive ? 'hideMenu' : 'flex-sb space nav'}>

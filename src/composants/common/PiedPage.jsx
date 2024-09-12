@@ -6,10 +6,10 @@ export default function PiedPage() {
     <footer>
       {social.map((item) => (
         <>
-          <i data-aos='zoom-in'>{item.icon}</i>
+          <i >{item.icon}</i>
         </>
       ))}
-      <p data-aos='zoom-in'>All Right Resceved 2018</p>
+      <p >All Right Resceved 2018</p>
     </footer>
   </>
   )
